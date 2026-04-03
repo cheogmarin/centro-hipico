@@ -394,7 +394,7 @@ const LocationSection = () => (
       </div>
       <div className="rounded-[3rem] overflow-hidden shadow-2xl border border-stone-100">
         <iframe 
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3819.031407498131!2d12.3413263!3d42.0670083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f437d346a2faf%3A0xd4865ce1c2c712df!2sCentro%20Ippico%20Gli%20Arcacci!5e1!3m2!1ses-419!2sve!4v1775182865556!5m2!1ses-419!2sve" 
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3819.031407498131!2d12.3413263!3d42.0670083!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f437d346a2faf%3A0xd4865ce1c2c712df!2sCentro%20Ippico%20Gli%20Arcacci!5e1!3m2!1sit!2sit!4v1775182865556!5m2!1sit!2sit" 
           width="100%" 
           height="500" 
           style={{ border: 0 }} 
