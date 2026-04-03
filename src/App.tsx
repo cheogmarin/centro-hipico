@@ -161,10 +161,10 @@ const Hero = () => {
             <span>Affiliazione Ufficiale FISE & CONI</span>
           </div>
           <h2 className="text-5xl md:text-7xl font-serif text-stone-900 leading-[1.1] mb-8">
-            Donde el bienestar del caballo es <span className="italic text-emerald-900">nuestra prioridad.</span>
+            Dove il benessere del cavallo è <span className="italic text-emerald-900">la nostra priorità.</span>
           </h2>
           <p className="text-lg text-stone-600 mb-10 leading-relaxed max-w-xl">
-            Ubicados en el corazón del Agro Romano, transformamos la equitación en una experiencia etológica, inclusiva y de alto rigor técnico.
+            Situati nel cuore dell'Agro Romano, trasformiamo l'equitazione in un'esperienza etologica, inclusiva e di alto rigore tecnico.
           </p>
           <div className="flex flex-wrap gap-4">
             <a 
@@ -196,7 +196,7 @@ const Hero = () => {
           </div>
           <div className="absolute -bottom-6 -left-6 bg-white p-8 rounded-2xl shadow-xl border border-stone-100 max-w-[240px]">
             <p className="text-stone-900 font-serif text-xl italic mb-1">"Pensione in Paddock"</p>
-            <p className="text-stone-500 text-xs leading-relaxed">Filosofía etológica: libertad y socialización para el bienestar real.</p>
+            <p className="text-stone-500 text-xs leading-relaxed">Filosofia etologica: libertà e socializzazione per un benessere reale.</p>
           </div>
         </motion.div>
       </div>
@@ -229,35 +229,35 @@ const Services = ({ onTrekkingDetailsClick, onScuolaPonyDetailsClick, onSaltoDet
     <div className="max-w-7xl mx-auto px-4">
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h2 className="text-4xl font-serif text-stone-900 mb-6">Esperienze d'Eccellenza</h2>
-        <p className="text-stone-600">Desde la primera monta hasta la competición nacional, cubrimos cada etapa del viaje ecuestre.</p>
+        <p className="text-stone-600">Dalla prima monta alla competizione nazionale, copriamo ogni tappa del viaggio equestre.</p>
       </div>
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         <ServiceCard 
           icon={Heart}
           tag="Sviluppo"
           title="Scuola Pony"
-          desc="Desarrollo cognitivo y emocional para niños a partir de los 4 años en un entorno seguro."
+          desc="Sviluppo cognitivo ed emotivo per bambini dai 4 anni in un ambiente sicuro."
           onDetailsClick={onScuolaPonyDetailsClick}
         />
         <ServiceCard 
           icon={Award}
           tag="Agonismo"
           title="Salto Ostacoli"
-          desc="Entrenamiento técnico avanzado bajo la normativa oficial FISE para jinetes competitivos."
+          desc="Allenamento tecnico avanzato secondo la normativa ufficiale FISE per cavalieri competitivi."
           onDetailsClick={onSaltoDetailsClick}
         />
         <ServiceCard 
           icon={Compass}
           tag="Avventura"
           title="Trekking 6h"
-          desc="Explora la topografía volcánica del Agro Romano en rutas guiadas de larga distancia."
+          desc="Esplora la topografia vulcanica dell'Agro Romano in percorsi guidati di lunga distanza."
           onDetailsClick={onTrekkingDetailsClick}
         />
         <ServiceCard 
           icon={Calendar}
           tag="Estate"
           title="Centri Estivi"
-          desc="Inmersión total en la naturaleza y el mundo del caballo durante las vacaciones escolares."
+          desc="Immersione totale nella natura e nel mondo del cavallo durante le vacanze scolastiche."
           onDetailsClick={onCentriEstiviDetailsClick}
         />
       </div>
@@ -278,7 +278,7 @@ const Inclusion = ({ onOpenManifesto }: { onOpenManifesto: () => void }) => (
             <span className="text-emerald-400 italic">Inclusione senza barriere.</span>
           </h2>
           <p className="text-stone-400 text-lg mb-10 leading-relaxed">
-            Crediamo fermamente que el caballo sea un derecho universal. Nuestros programas de accesibilidad total están diseñados para integrar a cada individuo, sin importar sus capacidades físicas o cognitivas.
+            Crediamo fermamente che il cavallo sia un diritto universale. I nostri programmi di accessibilità totale sono progettati per integrare ogni individuo, indipendentemente dalle capacità fisiche o cognitive.
           </p>
           <ul className="space-y-4 mb-10">
             {['Accesso facilitato', 'Istruttori specializzati', 'Programmi su misura'].map((item, i) => (
@@ -292,14 +292,14 @@ const Inclusion = ({ onOpenManifesto }: { onOpenManifesto: () => void }) => (
             onClick={onOpenManifesto}
             className="border border-white/20 text-white px-8 py-4 rounded-full font-bold hover:bg-white hover:text-stone-900 transition-all w-fit"
           >
-            Scopri i Proyectos Sociales
+            Scopri i Progetti Sociali
           </button>
         </div>
         <div className="lg:w-1/2 relative min-h-[400px]">
           <img 
             src="https://images.unsplash.com/photo-1551884831-bbf3cdc6469e?auto=format&fit=crop&q=80&w=1000" 
             alt="Inclusione ecuestre" 
-            className="absolute inset-0 w-full h-full object-cover grayscale-0 lg:grayscale lg:hover:grayscale-0 transition-all duration-700"
+            className="absolute inset-0 w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
             referrerPolicy="no-referrer"
           />
         </div>
@@ -313,7 +313,7 @@ const BookingSection = ({ onOpenDocs, onOpenBooking }: { onOpenDocs: () => void,
     <div className="max-w-3xl mx-auto px-4 text-center">
       <h2 className="text-4xl font-serif text-stone-900 mb-8">Inizia il tuo Viaggio</h2>
       <p className="text-stone-600 mb-12">
-        Scarica la modulistica necesaria y reserva tu primera lección de prueba. Nuestro equipo te contactará en 24 horas.
+        Scarica la modulistica necessaria e prenota la tua prima lezione di prova. Il nostro team ti contatterà entro 24 ore.
       </p>
       <div className="grid sm:grid-cols-3 gap-6">
         <button 
@@ -436,69 +436,69 @@ const ManifestoModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => v
             <div className="mb-12 text-center">
               <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Manifesto Sociale</span>
               <h2 className="text-3xl md:text-5xl font-serif text-stone-900 leading-tight">
-                "La Grandeza del Logro Sufrido y Compartido"
+                "La Grandezza del Traguardo Sudato e Condiviso"
               </h2>
             </div>
-
+ 
             <div className="space-y-12 text-stone-600 leading-relaxed">
               <p className="text-lg italic font-serif border-l-4 border-emerald-800 pl-6 py-2">
-                En el Centro Ippico Gli Arcacci A.S.D., entendemos que la equitación no es un privilegio de pocos, sino una escuela de vida para todos. Nuestra ubicación en el corazón del Agro Romano no es solo un paisaje, es nuestro compromiso con la tierra y con quienes la habitan.
+                Presso il Centro Ippico Gli Arcacci A.S.D., comprendiamo che l'equitazione non è un privilegio di pochi, ma una scuola di vita per tutti. La nostra posizione nel cuore dell'Agro Romano non è solo un paesaggio, è il nostro impegno verso la terra e verso chi la abita.
               </p>
-
+ 
               <div className="grid gap-8">
-                <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider">Nuestros Pilares Sociales:</h3>
+                <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider">I Nostri Pilastri Sociali:</h3>
                 
                 <div className="space-y-4">
                   <h4 className="text-emerald-900 font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-emerald-500 rounded-full" />
-                    Inclusión sin Barreras:
+                    Inclusione senza Barriere:
                   </h4>
                   <p className="text-sm">
-                    Creemos en un deporte sin límites. Por ello, hemos diseñado nuestras instalaciones con accesibilidad total. Desde la entrada hasta los picaderos, cada rincón de Gli Arcacci está listo para recibir a personas con diversidad funcional, convirtiendo al caballo en el mejor puente hacia la superación personal.
+                    Crediamo in uno sport senza limiti. Per questo, abbiamo progettato le nostre strutture con accessibilità totale. Dall'ingresso ai campi, ogni angolo di Gli Arcacci è pronto ad accogliere persone con diversità funzionale, rendendo il cavallo il miglior ponte verso il superamento personale.
                   </p>
                 </div>
-
+ 
                 <div className="space-y-4">
                   <h4 className="text-emerald-900 font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-emerald-500 rounded-full" />
-                    Compromiso con las Instituciones (Convenio SIULP):
+                    Impegno con le Istituzioni (Convenzione SIULP):
                   </h4>
                   <p className="text-sm">
-                    Honramos a quienes sirven. A través de nuestro acuerdo con el Sindicato de Policía (SIULP), facilitamos el acceso a la cultura ecuestre para las familias de los agentes, ofreciendo tarifas sociales que promueven la unión familiar y el descanso activo bajo el rigor de la FISE.
+                    Onoriamo chi serve. Attraverso il nostro accordo con il Sindacato di Polizia (SIULP), facilitiamo l'accesso alla cultura equestre per le famiglie degli agenti, offrendo tariffe sociali che promuovono l'unione familiare e il riposo attivo sotto il rigore della FISE.
                   </p>
                 </div>
-
+ 
                 <div className="space-y-4">
                   <h4 className="text-emerald-900 font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-emerald-500 rounded-full" />
-                    Escuela de Valores y Etología:
+                    Scuola di Valori ed Etologia:
                   </h4>
                   <p className="text-sm">
-                    Nuestros programas para jóvenes y los Centros Estivales no solo enseñan a montar. Enseñamos respeto. Al promover la pensión en paddock, mostramos a las nuevas generaciones que el bienestar del animal está por encima del ego del jinete. Aquí se aprende empatía, responsabilidad y disciplina.
+                    I nostri programmi per giovani e i Centri Estivi non insegnano solo a montare. Insegniamo il rispetto. Promuovendo la pensione in paddock, mostriamo alle nuove generazioni che il benessere dell'animale è al di sopra dell'ego del cavaliere. Qui si impara empatia, responsabilità e disciplina.
                   </p>
                 </div>
-
+ 
                 <div className="space-y-4">
                   <h4 className="text-emerald-900 font-bold flex items-center gap-2">
                     <div className="w-2 h-2 bg-emerald-500 rounded-full" />
-                    Turismo Sostenible y Patrimonio:
+                    Turismo Sostenibile e Patrimonio:
                   </h4>
                   <p className="text-sm">
-                    Con nuestras rutas de 6 horas por el territorio volcánico, rescatamos la historia del Agro Romano. Fomentamos un "Slow Tourism" que apoya a la economía local y preserva el entorno natural que nos vio nacer en 2014.
+                    Con i nostri percorsi di 6 ore nel territorio vulcanico, recuperiamo la storia dell'Agro Romano. Promuoviamo uno "Slow Tourism" che sostiene l'economia locale e preserva l'ambiente naturale che ci ha visto nascere nel 2014.
                   </p>
                 </div>
               </div>
-
+ 
               <div className="pt-12 border-t border-stone-100 text-center">
                 <Quote className="w-10 h-10 text-emerald-800/20 mx-auto mb-6" />
                 <p className="text-xl font-serif text-stone-900 italic mb-12">
-                  "En Gli Arcacci, el éxito no se mide en trofeos, sino en la sonrisa de un niño que supera su miedo y en el respeto mutuo entre el hombre y el caballo."
+                  "A Gli Arcacci, il successo non si misura in trofei, ma nel sorriso di un bambino che supera la sua paura e nel rispetto reciproco tra l'uomo e il cavallo."
                 </p>
                 <button 
                   onClick={onClose}
                   className="bg-stone-900 text-white px-12 py-4 rounded-full font-bold hover:bg-emerald-900 transition-all shadow-xl"
                 >
-                  Cerrar
+                  Chiudi
                 </button>
               </div>
             </div>
@@ -535,64 +535,64 @@ const TrekkingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => vo
 
           <div className="max-w-2xl mx-auto">
             <div className="mb-12 text-center">
-              <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Experiencia Signature</span>
+              <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Esperienza Signature</span>
               <h2 className="text-3xl md:text-5xl font-serif text-stone-900 leading-tight">
-                Trekking Signature: 6 Horas en el Agro Romano
+                Trekking Signature: 6 Ore nell'Agro Romano
               </h2>
             </div>
-
+ 
             <div className="space-y-12 text-stone-600 leading-relaxed">
               <div className="space-y-4">
                 <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                   <Compass className="w-6 h-6 text-emerald-800" />
-                  La Experiencia
+                  L'Esperienza
                 </h3>
                 <p className="text-lg leading-relaxed">
-                  Sumérgete en una travesía ecuestre que combina deporte, historia y naturaleza virgen. Partiendo desde nuestra sede, recorreremos senderos de toba volcánica inaccesibles para vehículos, explorando el corazón del Agro Romano Norte.
+                  Immergiti in una traversata equestre che combina sport, storia e natura incontaminata. Partendo dalla nostra sede, percorreremo sentieri di tufo vulcanico inaccessibili ai veicoli, esplorando il cuore dell'Agro Romano Nord.
                 </p>
               </div>
-
+ 
               <div className="grid gap-8">
-                <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider">Lo que incluye:</h3>
+                <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider">Cosa include:</h3>
                 
                 <div className="grid sm:grid-cols-2 gap-6">
                   <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
                     <h4 className="text-emerald-900 font-bold mb-2 flex items-center gap-2">
-                      <Clock className="w-4 h-4" /> Ruta Panorámica
+                      <Clock className="w-4 h-4" /> Percorso Panoramico
                     </h4>
-                    <p className="text-sm">6 horas de cabalgata guiada por jinetes certificados (estándar FISE).</p>
+                    <p className="text-sm">6 ore di cavalcata guidata da cavalieri certificati (standard FISE).</p>
                   </div>
                   <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
                     <h4 className="text-emerald-900 font-bold mb-2 flex items-center gap-2">
-                      <Heart className="w-4 h-4" /> Almuerzo Rural (Km 0)
+                      <Heart className="w-4 h-4" /> Pranzo Rurale (Km 0)
                     </h4>
-                    <p className="text-sm">Parada en un agroturismo local para disfrutar de un menú tradicional romano con productos de la zona.</p>
+                    <p className="text-sm">Sosta in un agriturismo locale per gustare un menù tradizionale romano con prodotti della zona.</p>
                   </div>
                   <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
                     <h4 className="text-emerald-900 font-bold mb-2 flex items-center gap-2">
-                      <ShieldCheck className="w-4 h-4" /> Seguridad Total
+                      <ShieldCheck className="w-4 h-4" /> Sicurezza Totale
                     </h4>
-                    <p className="text-sm">Equipamiento profesional completo y seguro de actividad incluido.</p>
+                    <p className="text-sm">Equipaggiamento professionale completo e assicurazione attività inclusa.</p>
                   </div>
                   <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
                     <h4 className="text-emerald-900 font-bold mb-2 flex items-center gap-2">
-                      <Accessibility className="w-4 h-4" /> Bienestar Animal
+                      <Accessibility className="w-4 h-4" /> Benessere Animale
                     </h4>
-                    <p className="text-sm">Tiempos de descanso programados para hidratación y recuperación de los caballos.</p>
+                    <p className="text-sm">Tempi di riposo programmati per l'idratazione e il recupero dei cavalli.</p>
                   </div>
                 </div>
               </div>
-
+ 
               <div className="space-y-8">
-                <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider">Detalles Técnicos:</h3>
+                <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider">Dettagli Tecnici:</h3>
                 <div className="space-y-4">
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 bg-stone-100 rounded-xl flex items-center justify-center shrink-0">
                       <Award className="w-5 h-5 text-emerald-800" />
                     </div>
                     <div>
-                      <p className="font-bold text-stone-900">Dificultad</p>
-                      <p className="text-sm">Adaptable (Principiantes a Expertos).</p>
+                      <p className="font-bold text-stone-900">Difficoltà</p>
+                      <p className="text-sm">Adattabile (Principianti a Esperti).</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-4">
@@ -600,7 +600,7 @@ const TrekkingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => vo
                       <MapPin className="w-5 h-5 text-emerald-800" />
                     </div>
                     <div>
-                      <p className="font-bold text-stone-900">Punto de Encuentro</p>
+                      <p className="font-bold text-stone-900">Punto di Incontro</p>
                       <p className="text-sm">Via del Fosso degli Arcacci 74, Roma.</p>
                     </div>
                   </div>
@@ -609,26 +609,26 @@ const TrekkingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => vo
                       <Euro className="w-5 h-5 text-emerald-800" />
                     </div>
                     <div>
-                      <p className="font-bold text-stone-900">Tarifas</p>
-                      <p className="text-sm">General: €75 | Especial SIULP: €65 (Acreditación).</p>
+                      <p className="font-bold text-stone-900">Tariffe</p>
+                      <p className="text-sm">Generale: €75 | Speciale SIULP: €65 (Accreditamento).</p>
                     </div>
                   </div>
                 </div>
               </div>
-
+ 
               <div className="p-6 bg-emerald-50 rounded-2xl border border-emerald-100 flex gap-4 items-start">
                 <Info className="w-6 h-6 text-emerald-800 shrink-0" />
                 <p className="text-sm text-emerald-900">
-                  <span className="font-bold">Nota:</span> Se recomienda ropa cómoda y calzado cerrado. Disponibilidad sujeta a condiciones climáticas para garantizar la seguridad.
+                  <span className="font-bold">Nota:</span> Si consiglia abbigliamento comodo e calzature chiuse. Disponibilità soggetta a condizioni climatiche per garantire la sicurezza.
                 </p>
               </div>
-
+ 
               <div className="pt-12 border-t border-stone-100 text-center">
                 <button 
                   onClick={onClose}
                   className="bg-stone-900 text-white px-12 py-4 rounded-full font-bold hover:bg-emerald-900 transition-all shadow-xl"
                 >
-                  Cerrar
+                  Chiudi
                 </button>
               </div>
             </div>
@@ -665,108 +665,108 @@ const ScuolaPonyModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => 
 
           <div className="max-w-2xl mx-auto">
             <div className="mb-12 text-center">
-              <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Pedagogía Ecuestre</span>
+              <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Pedagogia Equestre</span>
               <h2 className="text-3xl md:text-5xl font-serif text-stone-900 leading-tight">
-                Scuola Pony: Crecer en Libertad
+                Scuola Pony: Crescere in Libertà
               </h2>
               <p className="mt-6 text-lg italic text-stone-500 font-serif">
-                "Donde el juego se convierte en disciplina y la amistad en un vínculo eterno."
+                "Dove il gioco diventa disciplina e l'amicizia un legame eterno."
               </p>
             </div>
-
+ 
             <div className="space-y-12 text-stone-600 leading-relaxed">
               <p className="text-lg leading-relaxed">
-                Nuestra escuela de pony no es solo una clase de equitación; es un proyecto educativo diseñado para niños desde los 4 años. En Gli Arcacci, el pony no es una herramienta, es un compañero de crecimiento.
+                La nostra scuola pony non è solo una lezione di equitazione; è un progetto educativo pensato per i bambini dai 4 anni. A Gli Arcacci, il pony non è uno strumento, è un compagno di crescita.
               </p>
-
+ 
               <div className="grid gap-12">
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Smile className="w-6 h-6 text-emerald-800" />
-                    1. El Método: "Aprender Jugando"
+                    1. Il Metodo: "Imparare Giocando"
                   </h3>
-                  <p className="text-sm">Utilizamos una metodología basada en el respeto etológico y la psicomotricidad.</p>
+                  <p className="text-sm">Utilizziamo una metodologia basata sul rispetto etologico e la psicomotricità.</p>
                   <div className="grid sm:grid-cols-2 gap-6">
                     <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
-                      <h4 className="text-emerald-900 font-bold mb-2">Vínculo Afectivo</h4>
-                      <p className="text-sm">Antes de montar, el niño aprende a cepillar, alimentar y cuidar a su pony. Esto desarrolla la empatía y la responsabilidad.</p>
+                      <h4 className="text-emerald-900 font-bold mb-2">Legame Affettivo</h4>
+                      <p className="text-sm">Prima di montare, il bambino impara a spazzolare, nutrire e prendersi cura del suo pony. Questo sviluppa empatia e responsabilità.</p>
                     </div>
                     <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
-                      <h4 className="text-emerald-900 font-bold mb-2">Equilibrio y Coordinación</h4>
-                      <p className="text-sm">A través de juegos en pista, los niños mejoran su postura, tono muscular y confianza en sí mismos.</p>
+                      <h4 className="text-emerald-900 font-bold mb-2">Equilibrio e Coordinazione</h4>
+                      <p className="text-sm">Attraverso giochi in pista, i bambini migliorano la postura, il tono muscolare e la fiducia in se stessi.</p>
                     </div>
                   </div>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <ShieldCheck className="w-6 h-6 text-emerald-800" />
-                    2. Seguridad y Profesionalidad (Garantía FISE)
+                    2. Sicurezza e Professionalità (Garanzia FISE)
                   </h3>
                   <ul className="space-y-3">
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Instructores Certificados:</span> Clases impartidas por técnicos de la Federación Italiana de Deportes Ecuestres (FISE).</span>
+                      <span><span className="font-bold text-stone-900">Istruttori Certificati:</span> Lezioni tenute da tecnici della Federazione Italiana Sport Equestri (FISE).</span>
                     </li>
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Equipamiento Adaptado:</span> Ponies seleccionados por su carácter dócil y equipo de seguridad (cascos y protectores) de última generación.</span>
+                      <span><span className="font-bold text-stone-900">Equipaggiamento Adattato:</span> Pony selezionati per il loro carattere docile e attrezzatura di sicurezza (cap e corpetti) di ultima generazione.</span>
                     </li>
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Instalaciones Protegidas:</span> Picaderos específicos para niños, lejos del tránsito de caballos mayores.</span>
+                      <span><span className="font-bold text-stone-900">Strutture Protette:</span> Campi specifici per bambini, lontano dal transito dei cavalli più grandi.</span>
                     </li>
                   </ul>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Calendar className="w-6 h-6 text-emerald-800" />
-                    3. Programas Disponibles
+                    3. Programmi Disponibili
                   </h3>
                   <div className="grid gap-4">
-                    {['Bautismo Ecuestre: Una primera toma de contacto de 30 minutos para perder el miedo.', 
-                      'Cursos Trimestrales: Progresión técnica desde la base hasta los primeros saltos.', 
-                      'Centri Estivales (Campus): Inmersión total durante las vacaciones escolares (de lunes a viernes).'].map((text, i) => (
+                    {['Battesimo Equestre: Un primo contatto di 30 minuti per superare la paura.', 
+                      'Corsi Trimestrali: Progressione tecnica dalla base fino ai primi salti.', 
+                      'Centri Estivi (Campus): Immersione totale durante le vacanze scolastiche (dal lunedì al venerdì).'].map((text, i) => (
                       <div key={i} className="p-4 bg-emerald-50/50 rounded-xl border border-emerald-100 text-sm">
                         {text}
                       </div>
                     ))}
                   </div>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Info className="w-6 h-6 text-emerald-800" />
-                    4. Datos Clave para Padres
+                    4. Dati Chiave per i Genitori
                   </h3>
                   <div className="grid sm:grid-cols-3 gap-6">
                     <div className="text-center">
-                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Edad</p>
-                      <p className="text-lg font-bold text-stone-900">A partir de 4 años</p>
+                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Età</p>
+                      <p className="text-lg font-bold text-stone-900">Dai 4 anni</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Duración</p>
-                      <p className="text-lg font-bold text-stone-900">45 a 60 minutos</p>
+                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Durata</p>
+                      <p className="text-lg font-bold text-stone-900">45 a 60 minuti</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Beneficio SIULP</p>
-                      <p className="text-lg font-bold text-emerald-800">Descuento Especial</p>
+                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Vantaggio SIULP</p>
+                      <p className="text-lg font-bold text-emerald-800">Sconto Speciale</p>
                     </div>
                   </div>
                 </div>
               </div>
-
+ 
               <div className="pt-12 border-t border-stone-100 text-center">
                 <Quote className="w-10 h-10 text-emerald-800/20 mx-auto mb-6" />
                 <p className="text-xl font-serif text-stone-900 italic mb-12">
-                  "No enseñamos a montar ponies, formamos a los jinetes y ciudadanos del mañana bajo los valores del Agro Romano."
+                  "Non insegniamo a montare i pony, formiamo i cavalieri e i cittadini di domani secondo i valori dell'Agro Romano."
                 </p>
                 <button 
                   onClick={onClose}
                   className="bg-stone-900 text-white px-12 py-4 rounded-full font-bold hover:bg-emerald-900 transition-all shadow-xl"
                 >
-                  Cerrar
+                  Chiudi
                 </button>
               </div>
             </div>
@@ -805,127 +805,127 @@ const SaltoOstacoliModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
             <div className="mb-12 text-center">
               <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Agonismo FISE</span>
               <h2 className="text-3xl md:text-5xl font-serif text-stone-900 leading-tight">
-                Salto Ostacoli: La Disciplina del Vuelo
+                Salto Ostacoli: La Disciplina del Volo
               </h2>
               <p className="mt-6 text-lg italic text-stone-500 font-serif">
-                "Técnica, coraje y una conexión perfecta en cada batida."
+                "Tecnica, coraggio e una connessione perfetta in ogni battuta."
               </p>
             </div>
-
+ 
             <div className="space-y-12 text-stone-600 leading-relaxed">
               <p className="text-lg leading-relaxed">
-                El Salto de Obstáculos es la disciplina reina de la equitación moderna. En Gli Arcacci, preparamos a jinetes y caballos para alcanzar su máximo potencial deportivo, combinando el rigor de la FISE con una preparación física y mental integral.
+                Il Salto Ostacoli è la disciplina regina dell'equitazione moderna. A Gli Arcacci, prepariamo cavalieri e cavalli per raggiungere il loro massimo potenziale sportivo, combinando il rigore della FISE con una preparazione fisica e mentale integrale.
               </p>
-
+ 
               <div className="grid gap-12">
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Award className="w-6 h-6 text-emerald-800" />
-                    1. Entrenamiento de Alto Rendimiento
+                    1. Allenamento di Alto Rendimento
                   </h3>
-                  <p className="text-sm">Nuestro programa de salto se enfoca en la progresión lógica y segura del binomio.</p>
+                  <p className="text-sm">Il nostro programma di salto si focalizza sulla progressione logica e sicura del binomio.</p>
                   <div className="grid sm:grid-cols-2 gap-6">
                     <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
                       <h4 className="text-emerald-900 font-bold mb-2">Lavoro in Piano (Doma)</h4>
-                      <p className="text-sm">La base de todo salto es el control. Trabajamos la elasticidad, el ritmo y la impulsión antes de enfrentar la barra.</p>
+                      <p className="text-sm">La base di ogni salto è il controllo. Lavoriamo sull'elasticità, il ritmo e l'impulso prima di affrontare la barriera.</p>
                     </div>
                     <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
-                      <h4 className="text-emerald-900 font-bold mb-2">Gimnasia de Salto</h4>
-                      <p className="text-sm">Ejercicios de líneas y combinaciones para mejorar la técnica de batida y el gesto del caballo en el aire.</p>
+                      <h4 className="text-emerald-900 font-bold mb-2">Ginnastica di Salto</h4>
+                      <p className="text-sm">Esercizi di linee e combinazioni per migliorare la tecnica di battuta e il gesto del cavallo in aria.</p>
                     </div>
                   </div>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <ShieldCheck className="w-6 h-6 text-emerald-800" />
-                    2. Preparación para la Competición
+                    2. Preparazione per la Competizione
                   </h3>
-                  <p className="text-sm">Formamos parte activa del circuito de concursos de la Federación Italiana de Deportes Ecuestres (FISE).</p>
+                  <p className="text-sm">Facciamo parte attiva del circuito di concorsi della Federazione Italiana Sport Equestri (FISE).</p>
                   <ul className="space-y-3">
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Patentes y Licencias:</span> Te acompañamos en el proceso de obtención de patentes (A, B, G1, G2) para competir oficialmente.</span>
+                      <span><span className="font-bold text-stone-900">Patenti e Licenze:</span> Ti accompagniamo nel processo di ottenimento delle patenti (A, B, G1, G2) per competere ufficialmente.</span>
                     </li>
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Asistencia en Concurso:</span> Coaching personalizado a pie de pista durante los eventos regionales en el Lazio.</span>
+                      <span><span className="font-bold text-stone-900">Assistenza in Concorso:</span> Coaching personalizzato a bordo campo durante gli eventi regionali nel Lazio.</span>
                     </li>
                   </ul>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Landmark className="w-6 h-6 text-emerald-800" />
-                    3. Instalaciones de Vanguardia
+                    3. Strutture all'Avanguardia
                   </h3>
                   <div className="grid sm:grid-cols-2 gap-6">
                     <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
-                      <h4 className="text-emerald-900 font-bold mb-2">Picadero de Arena Silícea</h4>
-                      <p className="text-sm">Suelo técnico con drenaje perfecto para proteger los tendones del caballo durante la recepción.</p>
+                      <h4 className="text-emerald-900 font-bold mb-2">Campo in Sabbia Silicea</h4>
+                      <p className="text-sm">Suolo tecnico con drenaggio perfetto per proteggere i tendini del cavallo durante la ricezione.</p>
                     </div>
                     <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
-                      <h4 className="text-emerald-900 font-bold mb-2">Parque de Obstáculos Completo</h4>
-                      <p className="text-sm">Material de competición reglamentario para simular recorridos reales de concurso.</p>
+                      <h4 className="text-emerald-900 font-bold mb-2">Parco Ostacoli Completo</h4>
+                      <p className="text-sm">Materiale da competizione regolamentare per simulare percorsi reali di concorso.</p>
                     </div>
                   </div>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Info className="w-6 h-6 text-emerald-800" />
-                    4. Detalles del Programa
+                    4. Dettagli del Programma
                   </h3>
                   <div className="grid sm:grid-cols-3 gap-6">
                     <div className="text-center">
-                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Público</p>
-                      <p className="text-sm font-bold text-stone-900">Intermedio / Avanzado</p>
+                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Pubblico</p>
+                      <p className="text-sm font-bold text-stone-900">Intermedio / Avanzato</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Caballos</p>
-                      <p className="text-sm font-bold text-stone-900">Escuela o Propios</p>
+                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Cavalli</p>
+                      <p className="text-sm font-bold text-stone-900">Scuola o Propri</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Frecuencia</p>
-                      <p className="text-sm font-bold text-stone-900">Individual o Grupal</p>
+                      <p className="text-xs uppercase tracking-widest text-stone-400 font-bold mb-1">Frequenza</p>
+                      <p className="text-sm font-bold text-stone-900">Individuale o Gruppo</p>
                     </div>
                   </div>
                 </div>
-
+ 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 border-t border-stone-100">
                   <div className="flex flex-col items-center text-center p-4">
                     <Rocket className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Nivel</p>
-                    <p className="text-xs font-bold text-stone-900">Intermedio / Avanzado</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Livello</p>
+                    <p className="text-xs font-bold text-stone-900">Intermedio / Avanzato</p>
                   </div>
                   <div className="flex flex-col items-center text-center p-4">
                     <Trophy className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Objetivo</p>
-                    <p className="text-xs font-bold text-stone-900">Competición FISE</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Obiettivo</p>
+                    <p className="text-xs font-bold text-stone-900">Competizione FISE</p>
                   </div>
                   <div className="flex flex-col items-center text-center p-4">
                     <Landmark className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Suelo</p>
-                    <p className="text-xs font-bold text-stone-900">Arena Técnica</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Suolo</p>
+                    <p className="text-xs font-bold text-stone-900">Sabbia Tecnica</p>
                   </div>
                   <div className="flex flex-col items-center text-center p-4">
                     <TrendingUp className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Progreso</p>
-                    <p className="text-xs font-bold text-stone-900">Plan Personalizado</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Progresso</p>
+                    <p className="text-xs font-bold text-stone-900">Piano Personalizzato</p>
                   </div>
                 </div>
               </div>
-
+ 
               <div className="pt-12 border-t border-stone-100 text-center">
                 <Quote className="w-10 h-10 text-emerald-800/20 mx-auto mb-6" />
                 <p className="text-xl font-serif text-stone-900 italic mb-12">
-                  "No saltamos barreras, superamos límites. Nuestra filosofía se basa en que un caballo feliz y bien musculado es el que mejor salta."
+                  "Non saltiamo barriere, superiamo limiti. La nostra filosofia si basa sul fatto che un cavallo felice e ben muscolato è quello che salta meglio."
                 </p>
                 <button 
                   onClick={onClose}
                   className="bg-stone-900 text-white px-12 py-4 rounded-full font-bold hover:bg-emerald-900 transition-all shadow-xl"
                 >
-                  Cerrar
+                  Chiudi
                 </button>
               </div>
             </div>
@@ -962,33 +962,33 @@ const CentriEstiviModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () =
 
           <div className="max-w-2xl mx-auto">
             <div className="mb-12 text-center">
-              <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Inmersión Total</span>
+              <span className="text-emerald-800 font-bold text-xs tracking-widest uppercase mb-4 block">Immersione Totale</span>
               <h2 className="text-3xl md:text-5xl font-serif text-stone-900 leading-tight">
-                Centri Estivi: Verano en la Naturaleza
+                Centri Estivi: Estate nella Natura
               </h2>
               <p className="mt-6 text-lg italic text-stone-500 font-serif">
-                "Más que un campamento, una aventura educativa en el Agro Romano."
+                "Più di un campo, un'avventura educativa nell'Agro Romano."
               </p>
             </div>
-
+ 
             <div className="space-y-12 text-stone-600 leading-relaxed">
               <p className="text-lg leading-relaxed">
-                Cuando las escuelas cierran, Gli Arcacci abre sus puertas para ofrecer una experiencia de inmersión total. Nuestros centros estivos están diseñados para que los niños y jóvenes (de 4 a 16 años) cambien las pantallas por el contacto directo con el caballo y la vida rural.
+                Quando le scuole chiudono, Gli Arcacci apre le sue porte per offrire un'esperienza di immersione totale. I nostri centri estivi sono progettati affinché i bambini e i giovani (dai 4 ai 16 anni) cambino gli schermi con il contatto diretto con il cavallo e la vita rurale.
               </p>
-
+ 
               <div className="grid gap-12">
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Clock className="w-6 h-6 text-emerald-800" />
-                    1. Un Día Típico en Gli Arcacci
+                    1. Una Giornata Tipica a Gli Arcacci
                   </h3>
-                  <p className="text-sm">El programa está equilibrado entre la instrucción deportiva y la recreación:</p>
+                  <p className="text-sm">Il programma è equilibrato tra l'istruzione sportiva e la ricreazione:</p>
                   <div className="grid sm:grid-cols-2 gap-4">
                     {[
-                      { title: 'Mañana Ecuestre', desc: 'Clases de equitación adaptadas al nivel de cada niño.' },
-                      { title: 'Talleres de Etología', desc: 'Aprender a ensillar, limpiar y entender al caballo.' },
-                      { title: 'Juegos de Grupo', desc: 'Actividades al aire libre que fomentan el trabajo en equipo.' },
-                      { title: 'Almuerzo Saludable', desc: 'Menús equilibrados pensados para el gasto energético.' }
+                      { title: 'Mattina Equestre', desc: 'Lezioni di equitazione adattate al livello di ogni bambino.' },
+                      { title: 'Laboratori di Etologia', desc: 'Imparare a sellare, pulire e capire il cavallo.' },
+                      { title: 'Giochi di Gruppo', desc: 'Attività all\'aria aperta che favoriscono il lavoro di squadra.' },
+                      { title: 'Pranzo Salutare', desc: 'Menù equilibrati pensati per il dispendio energetico.' }
                     ].map((item, i) => (
                       <div key={i} className="p-5 bg-stone-50 rounded-2xl border border-stone-100">
                         <h4 className="text-emerald-900 font-bold mb-1">{item.title}</h4>
@@ -997,93 +997,93 @@ const CentriEstiviModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () =
                     ))}
                   </div>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Leaf className="w-6 h-6 text-emerald-800" />
-                    2. Educación Ambiental y Respeto
+                    2. Educazione Ambientale e Rispetto
                   </h3>
                   <p className="text-sm">
-                    Aprovechamos nuestra ubicación única para realizar senderismo educativo por los alrededores del foso volcánico, enseñando a los niños a identificar la flora y fauna local y la importancia de preservar el patrimonio del Agro Romano.
+                    Sfruttiamo la nostra posizione unica per realizzare trekking educativi nei dintorni del fosso vulcanico, insegnando ai bambini a identificare la flora e la fauna locale e l'importanza di preservare il patrimonio dell'Agro Romano.
                   </p>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <ShieldCheck className="w-6 h-6 text-emerald-800" />
-                    3. Seguridad y Tranquilidad para los Padres
+                    3. Sicurezza e Tranquillità per i Genitori
                   </h3>
                   <div className="grid sm:grid-cols-3 gap-6">
                     <div className="p-4 bg-emerald-50/50 rounded-xl border border-emerald-100">
-                      <p className="font-bold text-stone-900 text-sm mb-1">Personal Cualificado</p>
-                      <p className="text-xs">Animadores y técnicos FISE presentes siempre.</p>
+                      <p className="font-bold text-stone-900 text-sm mb-1">Personale Qualificato</p>
+                      <p className="text-xs">Animatori e tecnici FISE presenti sempre.</p>
                     </div>
                     <div className="p-4 bg-emerald-50/50 rounded-xl border border-emerald-100">
-                      <p className="font-bold text-stone-900 text-sm mb-1">Seguro Deportivo</p>
-                      <p className="text-xs">Cobertura completa para actividades ecuestres.</p>
+                      <p className="font-bold text-stone-900 text-sm mb-1">Assicurazione Sportiva</p>
+                      <p className="text-xs">Copertura completa per attività equestri.</p>
                     </div>
                     <div className="p-4 bg-emerald-50/50 rounded-xl border border-emerald-100">
-                      <p className="font-bold text-stone-900 text-sm mb-1">Flexibilidad</p>
-                      <p className="text-xs">Entrada desde las 8:30 AM para logística familiar.</p>
+                      <p className="font-bold text-stone-900 text-sm mb-1">Flessibilità</p>
+                      <p className="text-xs">Ingresso dalle 8:30 AM per logistica familiare.</p>
                     </div>
                   </div>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Info className="w-6 h-6 text-emerald-800" />
-                    4. Información de Interés
+                    4. Informazioni di Interesse
                   </h3>
                   <ul className="space-y-3">
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Periodo:</span> Semanas de Junio, Julio y Septiembre.</span>
+                      <span><span className="font-bold text-stone-900">Periodo:</span> Settimane di Giugno, Luglio e Settembre.</span>
                     </li>
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Edades:</span> De 4 a 16 años (divididos por grupos de edad).</span>
+                      <span><span className="font-bold text-stone-900">Età:</span> Dai 4 ai 16 anni (divisi per gruppi di età).</span>
                     </li>
                     <li className="flex gap-3 text-sm">
                       <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
-                      <span><span className="font-bold text-stone-900">Beneficio Especial:</span> Descuento exclusivo para hijos de miembros del SIULP y descuentos por hermanos o semanas consecutivas.</span>
+                      <span><span className="font-bold text-stone-900">Vantaggio Speciale:</span> Sconto esclusivo per figli di membri del SIULP e sconti per fratelli o settimane consecutive.</span>
                     </li>
                   </ul>
                 </div>
-
+ 
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 border-t border-stone-100">
                   <div className="flex flex-col items-center text-center p-4">
                     <Calendar className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Temporada</p>
-                    <p className="text-xs font-bold text-stone-900">Junio - Septiembre</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Stagione</p>
+                    <p className="text-xs font-bold text-stone-900">Giugno - Settembre</p>
                   </div>
                   <div className="flex flex-col items-center text-center p-4">
                     <Sun className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Horario</p>
-                    <p className="text-xs font-bold text-stone-900">Jornada Completa</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Orario</p>
+                    <p className="text-xs font-bold text-stone-900">Giornata Intera</p>
                   </div>
                   <div className="flex flex-col items-center text-center p-4">
                     <Award className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Actividad</p>
-                    <p className="text-xs font-bold text-stone-900">Equitación Diaria</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Attività</p>
+                    <p className="text-xs font-bold text-stone-900">Equitazione Quotidiana</p>
                   </div>
                   <div className="flex flex-col items-center text-center p-4">
                     <Trees className="w-8 h-8 text-emerald-800 mb-2" />
-                    <p className="text-[10px] font-bold uppercase text-stone-400">Entorno</p>
-                    <p className="text-xs font-bold text-stone-900">100% Aire Libre</p>
+                    <p className="text-[10px] font-bold uppercase text-stone-400">Ambiente</p>
+                    <p className="text-xs font-bold text-stone-900">100% Aria Aperta</p>
                   </div>
                 </div>
               </div>
-
+ 
               <div className="pt-12 border-t border-stone-100 text-center">
                 <Quote className="w-10 h-10 text-emerald-800/20 mx-auto mb-6" />
                 <p className="text-xl font-serif text-stone-900 italic mb-12">
-                  "Ofrecemos un verano donde el niño vuelve a casa cansado, feliz y con un nuevo mejor amigo de cuatro patas."
+                  "Offriamo un'estate dove il bambino torna a casa stanco, felice e con un nuovo migliore amico a quattro zampe."
                 </p>
                 <button 
                   onClick={onClose}
                   className="bg-stone-900 text-white px-12 py-4 rounded-full font-bold hover:bg-emerald-900 transition-all shadow-xl"
                 >
-                  Cerrar
+                  Chiudi
                 </button>
               </div>
             </div>
@@ -1125,27 +1125,27 @@ const DocumentationModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
                 Documentazione e Trasparenza
               </h2>
               <p className="mt-6 text-lg italic text-stone-500 font-serif">
-                "Tu seguridad y privacidad son nuestra prioridad institucional."
+                "La tua sicurezza e privacy sono la nostra priorità istituzionale."
               </p>
             </div>
-
+ 
             <div className="space-y-12 text-stone-600 leading-relaxed">
               <p className="text-lg leading-relaxed">
-                Para participar en nuestras actividades hípicas y sociales, es necesario completar y conocer la siguiente documentación oficial. Puedes descargar los formularios o solicitarlos en nuestra secretaría.
+                Per partecipare alle nostre attività ippiche e sociali, è necessario completare e conoscere la seguente documentazione ufficiale. Puoi scaricare i moduli o richiederli nella nostra segreteria.
               </p>
-
+ 
               <div className="grid gap-12">
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <FileText className="w-6 h-6 text-emerald-800" />
                     1. Scarico di Responsabilità (Waiver)
                   </h3>
-                  <p className="text-sm">Dado que la equitación es considerada una actividad de riesgo deportivo, este documento es obligatorio para todos los jinetes:</p>
+                  <p className="text-sm">Dato che l'equitazione è considerata un'attività di rischio sportivo, questo documento è obbligatorio per tutti i cavalieri:</p>
                   <div className="grid gap-4">
                     {[
-                      { title: 'Autorización de Menores', desc: 'Consentimiento firmado por padres o tutores para la Escuela Pony y Centros Estivos.' },
-                      { title: 'Certificado Médico', desc: 'Recordatorio de la obligatoriedad del certificado médico de aptitud deportiva (no agonística o agonística según el nivel).' },
-                      { title: 'Aceptación de Riesgo', desc: 'Declaración de conocimiento de las normas de seguridad en pista y durante el Trekking de 6 horas.' }
+                      { title: 'Autorizzazione Minori', desc: 'Consenso firmato da genitori o tutori per la Scuola Pony e Centri Estivi.' },
+                      { title: 'Certificato Medico', desc: 'Promemoria dell\'obbligatorietà del certificato medico di idoneità sportiva (non agonistica o agonistica a seconda del livello).' },
+                      { title: 'Accettazione del Rischio', desc: 'Dichiarazione di conoscenza delle norme di sicurezza in pista e durante il Trekking di 6 ore.' }
                     ].map((item, i) => (
                       <div key={i} className="p-5 bg-stone-50 rounded-2xl border border-stone-100 flex justify-between items-center group cursor-pointer hover:border-emerald-800 transition-all">
                         <div>
@@ -1157,18 +1157,18 @@ const DocumentationModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
                     ))}
                   </div>
                 </div>
-
+ 
                 <div className="space-y-6">
                   <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                     <Lock className="w-6 h-6 text-emerald-800" />
                     2. Informativa sulla Privacy (GDPR)
                   </h3>
-                  <p className="text-sm">En cumplimiento con el Reglamento UE 2016/679, informamos sobre el tratamiento de tus datos:</p>
+                  <p className="text-sm">In conformità con il Regolamento UE 2016/679, informiamo sul trattamento dei tuoi dati:</p>
                   <div className="grid gap-4">
                     {[
-                      { title: 'Finalidad', desc: 'Gestión de inscripciones, seguros federativos (FISE) y comunicación de horarios/eventos.' },
-                      { title: 'Derechos de Imagen', desc: 'Consentimiento específico para la publicación de fotos de actividades deportivas en nuestras redes sociales (fundamental para los Centri Estivi).' },
-                      { title: 'Protección de Datos', desc: 'Tus datos nunca serán cedidos a terceros ajenos a la federación o servicios de emergencia en caso de necesidad.' }
+                      { title: 'Finalità', desc: 'Gestione delle iscrizioni, assicurazioni federative (FISE) e comunicazione di orari/eventi.' },
+                      { title: 'Diritti di Immagine', desc: 'Consenso specifico per la pubblicazione di foto di attività sportive sui nostri social media (fondamentale per i Centri Estivi).' },
+                      { title: 'Protezione dei Dati', desc: 'I tuoi dati non saranno mai ceduti a terzi estranei alla federazione o ai servizi di emergenza in caso di necessità.' }
                     ].map((item, i) => (
                       <div key={i} className="p-5 bg-stone-50 rounded-2xl border border-stone-100 flex justify-between items-center group cursor-pointer hover:border-emerald-800 transition-all">
                         <div>
@@ -1180,7 +1180,7 @@ const DocumentationModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
                     ))}
                   </div>
                 </div>
-
+ 
                 <div className="grid sm:grid-cols-2 gap-8">
                   <div className="space-y-6">
                     <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
@@ -1188,24 +1188,24 @@ const DocumentationModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
                       3. Convenzione SIULP
                     </h3>
                     <div className="p-5 bg-emerald-50/50 rounded-2xl border border-emerald-100 flex justify-between items-center group cursor-pointer hover:border-emerald-800 transition-all">
-                      <p className="text-sm">Presentación del carnet de afiliación vigente para aplicar los descuentos del 11% al 20% en programas seleccionados.</p>
+                      <p className="text-sm">Presentazione della tessera di affiliazione vigente per applicare gli sconti dall'11% al 20% su programmi selezionati.</p>
                       <Download className="w-5 h-5 text-emerald-800/40 group-hover:text-emerald-800 transition-colors shrink-0 ml-4" />
                     </div>
                   </div>
-
+ 
                   <div className="space-y-6">
                     <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                       <FileCheck className="w-6 h-6 text-emerald-800" />
                       4. Regolamento Interno ASD
                     </h3>
                     <div className="p-5 bg-emerald-50/50 rounded-2xl border border-emerald-100 flex justify-between items-center group cursor-pointer hover:border-emerald-800 transition-all">
-                      <p className="text-sm">Normas de convivencia en el paddock y caballerizas. Uso obligatorio de casco (Cap) y protección de espalda.</p>
+                      <p className="text-sm">Norme di convivenza nel paddock e nelle scuderie. Uso obbligatorio del casco (Cap) e protezione della schiena.</p>
                       <Download className="w-5 h-5 text-emerald-800/40 group-hover:text-emerald-800 transition-colors shrink-0 ml-4" />
                     </div>
                   </div>
                 </div>
               </div>
-
+ 
               <div className="pt-12 border-t border-stone-100 text-center">
                 <Quote className="w-10 h-10 text-emerald-800/20 mx-auto mb-6" />
                 <p className="text-xl font-serif text-stone-900 italic mb-12">
@@ -1215,7 +1215,7 @@ const DocumentationModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () 
                   onClick={onClose}
                   className="bg-stone-900 text-white px-12 py-4 rounded-full font-bold hover:bg-emerald-900 transition-all shadow-xl"
                 >
-                  Cerrar
+                  Chiudi
                 </button>
               </div>
             </div>
@@ -1276,28 +1276,28 @@ const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                       Prenota la tua Prima Lezione
                     </h2>
                     <p className="mt-6 text-lg italic text-stone-500 font-serif">
-                      "El primer paso hacia el binomio perfecto comienza aquí."
+                      "Il primo passo verso il binomio perfetto inizia qui."
                     </p>
                   </div>
 
                   <div className="space-y-12 text-stone-600 leading-relaxed">
                     <p className="text-lg leading-relaxed">
-                      En el Centro Ippico Gli Arcacci, tu primera experiencia está diseñada para ser segura, educativa y emocionante. No importa si nunca has tocado un caballo o si buscas retomar la equitación deportiva.
+                      Al Centro Ippico Gli Arcacci, la tua prima esperienza è progettata per essere sicura, educativa ed emozionante. Non importa se non hai mai toccato un cavallo o se cerchi di riprendere l'equitazione sportiva.
                     </p>
 
                     <div className="grid gap-12">
                       <div className="space-y-6">
                         <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                           <Star className="w-6 h-6 text-emerald-800" />
-                          1. ¿En qué consiste la Primera Lección? (Il Battesimo della Sella)
+                          1. In cosa consiste la Prima Lezione? (Il Battesimo della Sella)
                         </h3>
-                        <p className="text-sm font-bold text-emerald-900">Duración: 45 - 60 minutos.</p>
+                        <p className="text-sm font-bold text-emerald-900">Durata: 45 - 60 minuti.</p>
                         <ul className="space-y-3">
                           {[
-                            'Breve introducción etológica (conocer al caballo).',
-                            'Preparación y cepillado (crear el vínculo).',
-                            'Sesión en pista: Equilibrio, posición y primeros comandos de dirección.',
-                            'Objetivo: Evaluar el nivel del jinete y asignar el grupo o programa más adecuado.'
+                            'Breve introduzione etologica (conoscere il cavallo).',
+                            'Preparazione e spazzolatura (creare il legame).',
+                            'Sessione in pista: Equilibrio, posizione e primi comandi di direzione.',
+                            'Obiettivo: Valutare il livello del cavaliere e assegnare il gruppo o programma più adatto.'
                           ].map((item, i) => (
                             <li key={i} className="flex gap-3 text-sm">
                               <div className="w-1.5 h-1.5 bg-emerald-500 rounded-full mt-1.5 shrink-0" />
@@ -1310,21 +1310,21 @@ const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                       <div className="space-y-6">
                         <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                           <ShieldCheck className="w-6 h-6 text-emerald-800" />
-                          2. Lo que necesitas traer:
+                          2. Cosa devi portare:
                         </h3>
                         <div className="grid sm:grid-cols-2 gap-6">
                           <div className="p-6 bg-stone-50 rounded-2xl border border-stone-100">
-                            <h4 className="text-emerald-900 font-bold mb-2">Tú traes:</h4>
+                            <h4 className="text-emerald-900 font-bold mb-2">Tu porti:</h4>
                             <ul className="text-xs space-y-2">
-                              <li>• Pantalones largos cómodos</li>
-                              <li>• Calzado cerrado (botas o zapatillas suela lisa)</li>
+                              <li>• Pantaloni lunghi comodi</li>
+                              <li>• Calzature chiuse (stivali o scarpe con suola liscia)</li>
                             </ul>
                           </div>
                           <div className="p-6 bg-emerald-50 rounded-2xl border border-emerald-100">
-                            <h4 className="text-emerald-900 font-bold mb-2">Nosotros proporcionamos:</h4>
+                            <h4 className="text-emerald-900 font-bold mb-2">Noi forniamo:</h4>
                             <ul className="text-xs space-y-2">
-                              <li>• Casco (Cap) homologado</li>
-                              <li>• Protector de espalda (si es necesario)</li>
+                              <li>• Casco (Cap) omologato</li>
+                              <li>• Protezione per la schiena (se necessaria)</li>
                             </ul>
                           </div>
                         </div>
@@ -1333,7 +1333,7 @@ const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                       <div className="space-y-6 pt-12 border-t border-stone-100">
                         <h3 className="text-xl font-bold text-stone-900 uppercase tracking-wider flex items-center gap-3">
                           <Send className="w-6 h-6 text-emerald-800" />
-                          3. Formulario de Reserva Inteligente
+                          3. Modulo di Prenotazione Intelligente
                         </h3>
                         
                         <form 
@@ -1347,31 +1347,31 @@ const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                           
                           <div className="grid sm:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Nombre del Jinete</label>
+                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Nome del Cavaliere</label>
                               <input 
                                 required 
                                 name="nombre"
                                 type="text" 
                                 className="w-full px-6 py-4 bg-stone-50 border border-stone-200 rounded-2xl focus:border-emerald-800 outline-none transition-all"
-                                placeholder="Ej: Mario Rossi"
+                                placeholder="Es: Mario Rossi"
                               />
                             </div>
                             <div className="space-y-2">
-                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Edad</label>
+                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Età</label>
                               <input 
                                 required 
                                 name="edad"
                                 type="number" 
                                 className="w-full px-6 py-4 bg-stone-50 border border-stone-200 rounded-2xl focus:border-emerald-800 outline-none transition-all"
-                                placeholder="Ej: 8"
+                                placeholder="Es: 8"
                               />
                             </div>
                           </div>
-
+ 
                           <div className="space-y-2">
-                            <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Nivel de Experiencia</label>
+                            <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Livello di Esperienza</label>
                             <div className="grid sm:grid-cols-3 gap-3">
-                              {['Nunca he montado', 'Principiante', 'Avanzado'].map((lvl) => (
+                              {['Mai montato', 'Principiante', 'Avanzato'].map((lvl) => (
                                 <label key={lvl} className="flex items-center gap-3 p-4 bg-stone-50 border border-stone-200 rounded-2xl cursor-pointer hover:border-emerald-800 transition-all">
                                   <input type="radio" name="nivel" value={lvl} required className="accent-emerald-800" />
                                   <span className="text-sm font-medium">{lvl}</span>
@@ -1379,24 +1379,24 @@ const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                               ))}
                             </div>
                           </div>
-
+ 
                           <div className="grid sm:grid-cols-2 gap-6">
                             <div className="space-y-2">
-                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Programa de Interés</label>
+                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Programma di Interesse</label>
                               <select 
                                 name="programa"
                                 required
                                 className="w-full px-6 py-4 bg-stone-50 border border-stone-200 rounded-2xl focus:border-emerald-800 outline-none transition-all appearance-none"
                               >
-                                <option value="">Selecciona un programa</option>
-                                <option value="Escuela Pony">Escuela Pony</option>
+                                <option value="">Seleziona un programma</option>
+                                <option value="Scuola Pony">Scuola Pony</option>
                                 <option value="Salto">Salto</option>
                                 <option value="Trekking">Trekking</option>
-                                <option value="Centros Estivos">Centros Estivos</option>
+                                <option value="Centri Estivi">Centri Estivi</option>
                               </select>
                             </div>
                             <div className="space-y-2">
-                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Fecha y Hora Preferida</label>
+                              <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Data e Ora Preferita</label>
                               <input 
                                 required 
                                 name="fecha_hora"
@@ -1405,11 +1405,11 @@ const BookingModal = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => voi
                               />
                             </div>
                           </div>
-
+ 
                           <div className="space-y-2">
-                            <label className="text-xs font-bold uppercase tracking-widest text-stone-400">¿Eres miembro del SIULP?</label>
+                            <label className="text-xs font-bold uppercase tracking-widest text-stone-400">Sei membro del SIULP?</label>
                             <div className="flex gap-6">
-                              {['Sí', 'No'].map((opt) => (
+                              {['Sì', 'No'].map((opt) => (
                                 <label key={opt} className="flex items-center gap-3 cursor-pointer">
                                   <input type="radio" name="siulp" value={opt} required className="accent-emerald-800" />
                                   <span className="text-sm font-medium">{opt}</span>
@@ -1476,56 +1476,56 @@ const LegalModal = ({ isOpen, onClose, type }: { isOpen: boolean, onClose: () =>
 
   const content: Record<'privacy' | 'terms' | 'cookies', LegalContent> = {
     privacy: {
-      title: "Política de Privacidad (GDPR)",
+      title: "Informativa sulla Privacy (GDPR)",
       icon: Shield,
-      text: "Tus datos están protegidos según el Reg. UE 2016/679. Solo los usamos para la gestión deportiva y seguros."
+      text: "I tuoi dati sono protetti secondo il Reg. UE 2016/679. Li utilizziamo esclusivamente per la gestione sportiva e assicurativa."
     },
     terms: {
-      title: "Términos y Condiciones de Uso - ASD Gli Arcacci",
+      title: "Termini e Condizioni d'Uso - ASD Gli Arcacci",
       icon: FileText,
-      text: "Al acceder a nuestras instalaciones o contratar nuestros servicios (Trekking, Escuela o Salto), el usuario acepta las siguientes normas de la Asociación:",
+      text: "Accedendo alle nostre strutture o contrattando i nostri servizi (Trekking, Scuola o Salto), l'utente accetta le seguenti norme dell'Associazione:",
       details: [
         {
-          title: "1. Requisitos de Salud y Seguridad",
+          title: "1. Requisiti di Salute e Sicurezza",
           items: [
-            "Certificado Médico: Es obligatorio presentar un certificado médico de aptitud deportiva vigente para realizar cualquier actividad ecuestre regular.",
-            "Equipamiento Obligatorio: Por normativa FISE, es estrictamente obligatorio el uso de casco (cap) homologado y calzado adecuado. El centro se reserva el derecho de prohibir la monta a quien no cumpla estas medidas.",
-            "Peso y Edad: Para garantizar el bienestar animal y la seguridad del jinete, existen límites de peso y edad mínima (4 años) según la actividad."
+            "Certificato Medico: È obbligatorio presentare un certificato medico di idoneità sportiva in corso di validità per svolgere qualsiasi attività equestre regolare.",
+            "Attrezzatura Obbligatoria: Per normativa FISE, è strettamente obbligatorio l'uso del casco (cap) omologato e di calzature adeguate. Il centro si riserva il diritto di vietare la monta a chi non rispetti tali misure.",
+            "Peso ed Età: Per garantire il benessere animale e la sicurezza del cavaliere, esistono limiti di peso ed età minima (4 anni) a seconda dell'attività."
           ]
         },
         {
-          title: "2. Política de Cancelación (Prenotazioni)",
+          title: "2. Politica di Cancellazione (Prenotazioni)",
           items: [
-            "Aviso Previo: Las clases o rutas de Trekking canceladas con menos de 24 horas de antelación no serán reembolsables ni recuperables, salvo causa de fuerza mayor justificada.",
-            "Condiciones Climáticas: En caso de lluvia extrema o alertas meteorológicas en el Agro Romano, el centro podrá reprogramar la actividad para garantizar la seguridad de jinetes y caballos."
+            "Preavviso: Le lezioni o i percorsi di Trekking cancellati con meno di 24 ore di preavviso non saranno rimborsabili né recuperabili, salvo cause di forza maggiore giustificate.",
+            "Condizioni Climatiche: In caso di pioggia estrema o allerta meteo nell'Agro Romano, il centro potrà riprogrammare l'attività per garantire la sicurezza di cavalieri e cavalli."
           ]
         },
         {
-          title: "3. Conducta en el Recinto",
+          title: "3. Condotta nel Centro",
           items: [
-            "Bienestar Animal: Cualquier maltrato físico o verbal hacia los caballos resultará en la expulsión inmediata del centro sin derecho a reembolso.",
-            "Supervisión: Los menores de edad deben estar bajo la supervisión de un adulto en todo momento, excepto cuando estén bajo la tutela directa de un instructor en pista."
+            "Benessere Animale: Qualsiasi maltrattamento fisico o verbale verso i cavalli comporterà l'espulsione immediata dal centro senza diritto a rimborso.",
+            "Supervisione: I minori devono essere sempre sotto la supervisione di un adulto, tranne quando sono sotto la tutela diretta di un istruttore in pista."
           ]
         },
         {
-          title: "4. Seguros y Responsabilidad",
+          title: "4. Assicurazioni e Responsabilità",
           items: [
-            "Afiliación FISE: Todos nuestros alumnos deben contar con la licencia federativa vigente, la cual incluye el seguro de accidentes deportivo obligatorio.",
-            "Exención de Responsabilidad: El centro no se hace responsable por la pérdida o daño de objetos personales dentro de las instalaciones o en el estacionamiento accesible."
+            "Affiliazione FISE: Tutti i nostri allievi devono essere in possesso della licenza federale in corso di validità, che include l'assicurazione obbligatoria contro gli infortuni sportivi.",
+            "Esonero di Responsabilità: Il centro non è responsabile per la perdita o il danneggiamento di oggetti personali all'interno delle strutture o nel parcheggio accessibile."
           ]
         },
         {
-          title: "5. Beneficios Sociales (SIULP)",
+          title: "5. Benefici Sociali (SIULP)",
           items: [
-            "Los descuentos y convenios sociales son personales e intransferibles. Se requerirá la validación de la identidad y pertenencia al sindicato mediante carnet oficial en la primera sesión."
+            "Gli sconti e le convenzioni sociali sono personali e intrasferibili. Sarà richiesta la convalida dell'identità e dell'appartenenza al sindacato tramite tessera ufficiale durante la prima sessione."
           ]
         }
       ]
     },
     cookies: {
-      title: "Cookies",
+      title: "Cookie",
       icon: Info,
-      text: "Este sitio utiliza cookies técnicas mínimas para mejorar tu experiencia de navegación."
+      text: "Questo sito utilizza cookie tecnici minimi per migliorare la tua esperienza di navigazione."
     }
   };
 
@@ -1585,7 +1585,7 @@ const LegalModal = ({ isOpen, onClose, type }: { isOpen: boolean, onClose: () =>
                   onClick={onClose}
                   className="bg-stone-900 text-white px-12 py-4 rounded-full font-bold hover:bg-emerald-900 transition-all"
                 >
-                  Entendido
+                  Ho capito
                 </button>
               </div>
             </div>

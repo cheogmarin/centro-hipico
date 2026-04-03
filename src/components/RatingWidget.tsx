@@ -39,7 +39,7 @@ export const RatingWidget: React.FC = () => {
   const handleFeedbackSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     const email = "circoloippicogliarcacci@gmail.com";
-    const subject = encodeURIComponent(`Feedback Gli Arcacci - ${rating} Estrellas`);
+    const subject = encodeURIComponent(`Feedback Gli Arcacci - ${rating} Stelle`);
     const body = encodeURIComponent(comment);
     
     // Abrir cliente de correo
@@ -59,8 +59,8 @@ export const RatingWidget: React.FC = () => {
   return (
     <section className="w-full max-w-2xl mx-auto p-8 md:p-12 bg-white rounded-[2.5rem] shadow-2xl border border-stone-100 my-12">
       <div className="text-center mb-10">
-        <h3 className="text-3xl font-serif text-stone-900 mb-3">Tu opinión nos hace crecer</h3>
-        <p className="text-stone-500 text-sm italic">"La excelencia se construye escuchando a nuestros jinetes."</p>
+        <h3 className="text-3xl font-serif text-stone-900 mb-3">La tua opinione ci fa crescere</h3>
+        <p className="text-stone-500 text-sm italic">"L'eccellenza si costruisce ascoltando i nostri cavalieri."</p>
       </div>
 
       {/* Estrellas */}
@@ -108,7 +108,7 @@ export const RatingWidget: React.FC = () => {
           >
             <div className="p-6 bg-stone-50 rounded-2xl border border-stone-200">
               <p className="text-stone-700 text-sm leading-relaxed">
-                <strong>Lamentamos que tu experiencia no haya sido perfecta.</strong> Tu mensaje será enviado directamente a <strong>circoloippicogliarcacci@gmail.com</strong> para resolver cualquier inconveniente.
+                <strong>Ci dispiace che la tua esperienza non sia stata perfetta.</strong> Il tuo messaggio sarà inviato direttamente a <strong>circoloippicogliarcacci@gmail.com</strong> per risolvere qualsiasi inconveniente.
               </p>
             </div>
             <form onSubmit={handleFeedbackSubmit} className="space-y-4">
@@ -116,14 +116,14 @@ export const RatingWidget: React.FC = () => {
                 required
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
-                placeholder="Cuéntanos cómo podemos mejorar. Tu mensaje se enviará a circoloippicogliarcacci@gmail.com"
+                placeholder="Raccontaci come possiamo migliorare. Il tuo messaggio sarà inviato a circoloippicogliarcacci@gmail.com"
                 className="w-full p-5 bg-white border border-stone-200 rounded-2xl text-stone-900 text-sm focus:ring-2 focus:ring-[#D4AF37] outline-none transition-all min-h-[120px]"
               />
               <button 
                 type="submit"
                 className="w-full bg-stone-900 text-white py-4 rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-emerald-900 transition-colors"
               >
-                <Send size={18} /> Enviar a circoloippicogliarcacci@gmail.com
+                <Send size={18} /> Invia a circoloippicogliarcacci@gmail.com
               </button>
             </form>
           </motion.div>
@@ -137,8 +137,8 @@ export const RatingWidget: React.FC = () => {
             className="text-center p-8 bg-emerald-50 rounded-2xl border border-emerald-100"
           >
             <CheckCircle2 className="w-12 h-12 text-emerald-600 mx-auto mb-4" />
-            <h4 className="text-emerald-900 font-bold mb-2">Gracias por ayudarnos a mejorar</h4>
-            <p className="text-emerald-700 text-sm">Tu mensaje ha sido preparado para enviarse a <strong>circoloippicogliarcacci@gmail.com</strong>. Por favor, asegúrate de completar el envío en tu aplicación de correo.</p>
+            <h4 className="text-emerald-900 font-bold mb-2">Grazie per averci aiutato a migliorare</h4>
+            <p className="text-emerald-700 text-sm">Il tuo messaggio è stato preparato per essere inviato a <strong>circoloippicogliarcacci@gmail.com</strong>. Per favore, assicurati di completare l'invio nella tua applicazione di posta.</p>
           </motion.div>
         )}
 
@@ -152,15 +152,15 @@ export const RatingWidget: React.FC = () => {
             <div className="mb-6 inline-flex p-4 bg-[#D4AF37]/10 rounded-full">
               <Award className="w-10 h-10 text-[#D4AF37]" />
             </div>
-            <h4 className="text-2xl font-serif text-stone-900 mb-4">¡Gracias por tu confianza!</h4>
+            <h4 className="text-2xl font-serif text-stone-900 mb-4">Grazie per la tua fiducia!</h4>
             <p className="text-stone-600 text-sm mb-8 leading-relaxed">
-              Tu valoración positiva es el mejor reconocimiento para nuestro equipo y nuestros caballos. ¿Nos ayudas compartiéndolo en Google?
+              La tua valutazione positiva è il miglior riconoscimento per il nostro team e i nostri cavalli. Ci aiuti condividendolo su Google?
             </p>
             <button 
               onClick={() => window.open(GOOGLE_MAPS_URL, '_blank')}
               className="w-full bg-[#D4AF37] text-white py-4 rounded-xl font-bold flex items-center justify-center gap-3 hover:brightness-110 transition-all shadow-lg shadow-[#D4AF37]/20"
             >
-              Publicar reseña oficial en Google <ExternalLink size={18} />
+              Pubblica una recensione ufficiale su Google <ExternalLink size={18} />
             </button>
           </motion.div>
         )}
