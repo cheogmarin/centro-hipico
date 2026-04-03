@@ -1,0 +1,5 @@
+{
+  "name": "Centro Ippico Gli Arcacci",
+  "description": "Transformación Digital del Centro Ippico Gli Arcacci A.S.D. (Roma Norte). Afiliación FISE/CONI y bienestar etológico.",
+  "requestFramePermissions": ["geolocation"]
+}
